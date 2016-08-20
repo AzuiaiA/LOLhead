@@ -1,0 +1,31 @@
+<nav class="nav">
+  <a href="#/main/news/newest">最新</a>
+  <a href="">赛事</a>
+  <a href="">活动</a>
+  <a href="">视频</a>
+  <a href="">娱乐</a>
+</nav>
+<div ui-view="" class="news_content"></div>
+<style>
+  .nav{
+    width:100%;
+    background: #282C34;
+    overflow: hidden;
+  }
+  .nav>a{
+    width:20%;
+    height:100%;
+    line-height:2.5em;
+    text-decoration: none;
+    color:#fff;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+  }
+  .news_content{
+    width:100%;
+    height:92%;
+    position: absolute;
+    top:8%;
+  }
+</style>

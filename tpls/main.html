@@ -1,0 +1,53 @@
+<header class="header"></header>
+<div ui-view="" class="main_content"></div>
+<footer class="footer">
+  <a class="news" href="#/main/news">资讯</a>
+  <a class="friend" href="">好友</a>
+  <a class="discover" href="">发现</a>
+  <a class="mine" href="">我</a>
+</footer>
+
+<style>
+  *{margin:0;padding:0;}
+  .header{
+    width:100%;
+    height:2%;
+    background: #282C34;
+  }
+  .main_content{
+    width:100%;
+    height:90%;
+    position: absolute;
+    top:2%;
+  }
+  .news{
+    background: url('images/footer_icon1.png') no-repeat center 10%;
+  }
+  .friend{
+    background: url('images/footer_icon2.png') no-repeat center 10%;
+  }
+  .discover{
+    background: url('images/footer_icon3.png') no-repeat center 10%;
+  }
+  .mine{
+    background: url('images/footer_icon4.png') no-repeat center 10%;
+  }
+  .footer{
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    height:8%;
+    border-top: 1px solid #ababad;
+    background: #f0f0f0;
+  }
+  .footer>a{
+    width:25%;
+    line-height: 50px;
+    text-decoration: none;
+    color:#8a8a8a;
+    float: left;
+    text-align: center;
+    font-size: 8px;
+    padding-top:3%;
+  }
+</style>
